@@ -4,11 +4,11 @@ The purpose of the repository is to create a LeNet convolutional neural network 
 
 The steps are:
 
-__1. Import machine learning modules__
+## 1. Import machine learning modules
 
 This neural network primarily uses `keras` models and optimizers. It also uses `pickle` and `pandas` for working with the data.
 
-__2. Import labelled image data__
+## 2. Import labelled image data
 
 The labelled image data is imported from the link at the end of this README. This is a dataset of 34799 images over 42 different categories of traffic signs, 10 of which are shown below.
 
@@ -17,7 +17,7 @@ __Figure 1: Training Images__
 ![alt text](images/Training_Images_1.png "Training_Images_1") ![alt text](images/Training_Images_2.png "Training_Images_2")
 
 
-__3. Preprocess road signs (grayscale, histogram equalization, normalize)__
+## 3. Preprocess + Augment road signs
 
 The next step is to preprocess the road signs. This includes grayscale conversion, histogram equalization, and normalization.
 
@@ -31,11 +31,11 @@ __Figure 3: Augmented Images__
 
 ![alt text](images/Augmented_Images.png "Augmented Images")
 
-__4. Create a LeNet model__
+## 4. Create a LeNet model
 
 The next step is to create the LeNet model. This includes `four convolutional layers` with relu activation, `two pooling layers`, and `two Dense Layers` with relu and softmax activations, respectively.
 
-__5. Test the LeNet model__
+## 5. Test the LeNet model
 
 The LeNet model takes about 1 minute per epoch to train, which means a total of 10 minutes for 10 epochs.
 
