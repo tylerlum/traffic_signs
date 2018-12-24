@@ -14,9 +14,7 @@ The labelled image data is imported from the link at the end of this README. Thi
 
 __Figure 1: Training Images__
 
-![alt text](images/Training_Images_1.png "Training_Images_1")
-
-![alt text](images/Training_Images_2.png "Training_Images_2")
+![alt text](images/Training_Images_1.png "Training_Images_1") ![alt text](images/Training_Images_2.png "Training_Images_2")
 
 
 __3. Preprocess road signs (grayscale, histogram equalization, normalize)__
